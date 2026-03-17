@@ -745,6 +745,22 @@ h1, h2, h3, h4, .logo {
     font-size: 0.9rem;
 }
 
+.designed-by {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    opacity: 0.6;
+}
+
+.designed-by a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.designed-by a:hover {
+    color: var(--primary-color);
+}
+
 /* Animations */
 @keyframes float {
     0% { transform: translateY(0px); }
