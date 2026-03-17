@@ -172,7 +172,7 @@
     height: 18px;
     background: radial-gradient(ellipse at center bottom, #ff9800, #ff5722, transparent);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    margin: -2px auto 0;
+    margin: 0 auto -2px;
     animation: flicker 0.3s infinite alternate;
     filter: blur(0.5px);
 }
