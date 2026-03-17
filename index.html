@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emine Cake Dessert | Butik Lezzetler</title>
+    <meta name="description"
+        content="Emine Cake Dessert: Adana'nın en tatlı butik yaş pasta, cheesecake ve tatlı mekanı. El yapımı, özenli ve estetik lezzetler için bize ulaşın.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-overlay">
+        <div class="loader-content">
+            <div class="cake-animation">
+                <!-- Cake Base / Plate -->
+                <div class="cake-plate"></div>
+                <!-- Cake layers build up -->
+                <div class="cake-layer cake-layer-1"></div>
+                <div class="cake-layer cake-layer-2"></div>
+                <div class="cake-layer cake-layer-3"></div>
+                <!-- Frosting drip -->
+                <div class="cake-frosting"></div>
+                <!-- Cherry on top -->
+                <div class="cake-cherry"></div>
+                <!-- Candle -->
+                <div class="cake-candle">
+                    <div class="candle-stick"></div>
+                    <div class="candle-flame"></div>
+                </div>
+            </div>
+            <p class="loader-text">Lezzetler Hazırlanıyor<span class="loader-dots"></span></p>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Emine Cake Dessert</a>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#menu">Lezzetlerimiz</a></li>
+                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hayata Tatlı Bir Mola</h1>
+            <p class="hero-subtitle">Kozan'ın en tatlı adresi! En taze malzemelerle, sevgiyle hazırlanan butik yaş pasta, cheesecake ve
+                tatlılarımızla özel anlarınızı taçlandırın.</p>
+            <a href="#menu" class="btn btn-primary">Lezzetleri Keşfet</a>
+        </div>
+        <div class="hero-image">
+            <div class="blob-bg"></div>
+            <img src="images/cake_hero.png" alt="Muhteşem Butik Yaş Pasta" class="floating-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hikayemiz</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Atölyemizden Sofranıza</h3>
+                    <p>Emine Cake Dessert olarak, Kozan'da her dilimde mutluluk ve sanat sunmayı hedefliyoruz. Sıradan pastaların
+                        ötesinde, her biri birer tasarım harikası olan butik pastalarımız, özel reçetelerimizle
+                        hazırlanan tatlılarımız ve damakta iz bırakan cheesecakelerimiz ile hizmetinizdeyiz.</p>
+                    <p>Şu anda sadece Adana'nın Kozan ilçesine hizmet vermekteyiz. Kalite, tazelik ve vizyoner bir sunum anlayışıyla her siparişinizde tatlı bir anı bırakmak için
+                        özenle çalışıyoruz.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-heart"></i><span>Tamamen el yapımı, günlük üretim</span></li>
+                        <li><i class="fas fa-leaf"></i><span>En kaliteli ve doğal malzemeler</span></li>
+                        <li><i class="fas fa-star"></i><span>Kişiye özel, benzersiz tasarımlar</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu / Products Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>İmza Lezzetlerimiz</h2>
+                <p>Özenle hazırladığımız menümüzden favori tatlarınızı seçin.</p>
+                <div class="divider"></div>
+            </div>
+            <div class="card-grid">
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/cake_hero.png" alt="Yaş Pasta">
+                        <div class="card-badge">Özel Tasarım</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Butik Yaş Pasta</h3>
+                        <p>Doğum günleri, nişan ve özel kutlamalarınız için size özel tasarlanmış, taptaze mevsim
+                            meyveleri ve Belçika çikolatası ile hazırlanan rüya gibi pastalar.</p>
+                        <a href="https://www.instagram.com/eminebal_cake_dessert" target="_blank"
+                            class="card-btn">Sipariş İçin <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/cheesecake_slice.png" alt="Cheesecake">
+                        <div class="card-badge">Çok Sevilen</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>San Sebastian & Cheesecake</h3>
+                        <p>Kıvamı ve lezzetiyle dillere destan cheesecakelerimiz. Orman meyveli, limonlu, lotuslu veya
+                            klasik San Sebastian; her damak zevkine uygun mükemmel doku.</p>
+                        <a href="https://www.instagram.com/eminebal_cake_dessert" target="_blank"
+                            class="card-btn">Sipariş İçin <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="images/assorted_desserts.png" alt="Butik Tatlılar">
+                        <div class="card-badge">Klasik</div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Butik Tatlılar & Makaronlar</h3>
+                        <p>Çay ve kahvenizin en iyi eşlikçisi... İtalyan usulü tiramisu, günlük taze makaronlar ve
+                            çeşitli hafif butik tatlılarımızla kendinizi şımartın.</p>
+                        <a href="https://www.instagram.com/eminebal_cake_dessert" target="_blank"
+                            class="card-btn">Sipariş İçin <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section id="instagram" class="instagram">
+        <div class="container">
+            <div class="section-header">
+                <h2>Instagram'dan Kareler</h2>
+                <p>Bizi Instagram'da takip edin, en güncel lezzetlerimizi keşfedin!</p>
+                <div class="divider"></div>
+            </div>
+            <div class="instagram-grid">
+                <!-- Post 1 -->
+                <div class="ig-embed-wrapper">
+                    <iframe src="https://www.instagram.com/p/DQmKg26jCtL/embed/captioned/" frameborder="0"
+                        scrolling="no" allowtransparency="true" loading="lazy">
+                    </iframe>
+                </div>
+                <!-- Post 2 -->
+                <div class="ig-embed-wrapper">
+                    <iframe src="https://www.instagram.com/p/DV1ZBM9DM6u/embed/captioned/" frameborder="0"
+                        scrolling="no" allowtransparency="true" loading="lazy">
+                    </iframe>
+                </div>
+                <!-- Post 3 -->
+                <div class="ig-embed-wrapper">
+                    <iframe src="https://www.instagram.com/p/DVrYtO_jOWO/embed/captioned/" frameborder="0"
+                        scrolling="no" allowtransparency="true" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://www.instagram.com/eminebal_cake_dessert" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-instagram"></i>&nbsp; Profilimizi Ziyaret Edin
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">Emine Cake Dessert</a>
+                <p>Kozan, Adana'da en tatlı anlarınıza eşlik etmek için buradayız. Günlük taze üretim butik lezzetler.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>İletişim</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Kozan, Adana</li>
+                    <li><i class="fas fa-phone"></i> +90 555 123 45 67</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Bizi Takip Edin</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/eminebal_cake_dessert" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Emine Cake Dessert. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
